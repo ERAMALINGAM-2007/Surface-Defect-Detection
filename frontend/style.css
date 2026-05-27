@@ -1,0 +1,20 @@
+body {
+    font-family: Arial;
+    background: #f4f4f4;
+    text-align: center;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+button {
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+img {
+    margin-top: 20px;
+    max-width: 700px;
+    border: 2px solid black;
+}

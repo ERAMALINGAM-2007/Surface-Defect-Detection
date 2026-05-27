@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 11
+names: ['crease', 'crescent_gap', 'd', 'inclusion', 'oil_spot', 'punching_hole', 'rolled_pit', 'silk_spot', 'waist folding', 'water_spot', 'welding_line']
+
+roboflow:
+  workspace: yolo-zidtc
+  project: defect-detection-olwju
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/yolo-zidtc/defect-detection-olwju/dataset/1
