@@ -23,7 +23,7 @@ The model is trained to detect the following defects:
 
 1. Crease
 2. Crescent Gap
-3. D
+3. Welding Line
 4. Inclusion
 5. Oil Spot
 6. Punching Hole
@@ -31,7 +31,6 @@ The model is trained to detect the following defects:
 8. Silk Spot
 9. Waist Folding
 10. Water Spot
-11. Welding Line
 
 ---
 
