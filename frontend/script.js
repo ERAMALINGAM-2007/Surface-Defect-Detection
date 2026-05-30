@@ -35,3 +35,6 @@ async function uploadImage() {
     document.getElementById("outputImage").src =
         `http://127.0.0.1:5000/output/${data.output_image}`;
 }
+
+
+
