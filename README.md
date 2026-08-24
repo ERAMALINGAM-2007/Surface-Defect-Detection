@@ -900,27 +900,7 @@ For production deployment, the following should be added:
 
 Some defect categories contain significantly fewer annotations than others.
 
-### 2. Missing training examples for `d`
-
-The current training set does not contain meaningful examples for the configured `d` class.
-
-### 3. No real-time inspection
-
-The current application processes uploaded images rather than directly processing a live industrial camera feed.
-
-### 4. Local file storage
-
-Uploaded and annotated images are stored locally.
-
-### 5. Limited upload validation
-
-The current API should be strengthened with file-type and file-size validation.
-
-### 6. Prototype-oriented deployment
-
-The current Flask implementation is suitable for development and demonstration but would need additional infrastructure for large-scale production use.
-
-### 7. No live industrial integration
+### 2. No live industrial integration
 
 The system is not currently connected to:
 
